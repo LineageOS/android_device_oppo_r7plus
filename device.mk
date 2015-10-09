@@ -57,8 +57,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Fingerprint sensor
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/cyanogenmod.hardware.fingerprint.xml:system/etc/permissions/cyanogenmod.hardware.fingerprint.xml
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/cyanogenmod.hardware.fingerprint.xml:system/etc/permissions/cyanogenmod.hardware.fingerprint.xml
 PRODUCT_PACKAGES += \
     fingerprint.msm8916
 
