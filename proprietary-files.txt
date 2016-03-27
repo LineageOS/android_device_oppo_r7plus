@@ -372,10 +372,7 @@ vendor/lib64/libxml.so
 
 # Sensors
 bin/psensord
-bin/sensor_work
-lib64/hw/sensors.msm8916.so
 lib64/hw/sensors.hal.tof.so
-lib/hw/sensors.msm8916.so
 vendor/lib/libcalmodule_gyroscope.so
 vendor/lib/libcalmodule_yamaha.so
 vendor/lib64/libcalmodule_gyroscope.so
