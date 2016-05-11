@@ -22,6 +22,30 @@
       "revId": "1f92119a8970e0cd4633c9079f7e7378dc358db5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_db2e4ef9",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-05-11T12:51:36Z",
+      "side": 1,
+      "message": "ril-daemon (defined in system/core/rootdir/init.rc) has its class set to main as well. If anything, both would need to be changed.",
+      "parentUuid": "5faad753_fc16adf1",
+      "range": {
+        "startLine": 36,
+        "startChar": 10,
+        "endLine": 36,
+        "endChar": 14
+      },
+      "revId": "1f92119a8970e0cd4633c9079f7e7378dc358db5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
