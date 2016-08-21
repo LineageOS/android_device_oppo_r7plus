@@ -7,9 +7,6 @@ etc/firmware/left.tfa9890_n1c2.patch|581d987516c4678149bcd72d13eff2f89391fb6e
 etc/firmware/left.tfa9890_voice_table.eq|e34df2c3a4af6002def1e4523f8c0f3352dc3c37
 etc/firmware/left.tfa9890_voice_table.preset|0b3405e6480afcd9916406b78545cde962308d61
 
-# Camera
-vendor/lib/libimage_stability.so
-
 # Camera autofocus
 vendor/lib/libactuator_dw9800w_camcorder.so
 vendor/lib/libactuator_dw9800w_camera.so
@@ -52,11 +49,11 @@ vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
 # Fingerprint sensor
-etc/firmware/fingerprints.b00
-etc/firmware/fingerprints.b01
-etc/firmware/fingerprints.b02
-etc/firmware/fingerprints.b03
-etc/firmware/fingerprints.mdt
+etc/firmware/fpctzappfingerprint.b00
+etc/firmware/fpctzappfingerprint.b01
+etc/firmware/fpctzappfingerprint.b02
+etc/firmware/fpctzappfingerprint.b03
+etc/firmware/fpctzappfingerprint.mdt
 
 # Sensors
 bin/psensord
