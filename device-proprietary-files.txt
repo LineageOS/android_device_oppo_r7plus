@@ -52,11 +52,11 @@ vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
 # Fingerprint sensor
-etc/firmware/fingerprints.b00
-etc/firmware/fingerprints.b01
-etc/firmware/fingerprints.b02
-etc/firmware/fingerprints.b03
-etc/firmware/fingerprints.mdt
+etc/firmware/fpctzappfingerprint.b00
+etc/firmware/fpctzappfingerprint.b01
+etc/firmware/fpctzappfingerprint.b02
+etc/firmware/fpctzappfingerprint.b03
+etc/firmware/fpctzappfingerprint.mdt
 
 # Sensors
 bin/psensord
