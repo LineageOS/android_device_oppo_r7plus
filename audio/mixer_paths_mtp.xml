@@ -61,6 +61,7 @@
     <ctl name="AK4375 HPL Mixer LDACL" value="0" />
     <ctl name="AK4375 HPR Mixer RDACR" value="0" />
     <ctl name="NXP ModeL" value="0" />
+    <ctl name="NXP VolumeL" value="0" />
     <ctl name="VOC_EXT_EC MUX" value="NONE" />
 
     <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="0" />
@@ -205,7 +206,7 @@
 
     <path name="deep-buffer-playback speaker-and-headphones">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-        <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia1" value="1" />
+        <ctl name="NXP VolumeL" value="40" />
     </path>
 
     <path name="deep-buffer-playback headphones">
@@ -248,7 +249,7 @@
 
     <path name="low-latency-playback speaker-and-headphones">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+        <ctl name="NXP VolumeL" value="40" />
     </path>
 
     <path name="low-latency-playback headphones">
@@ -291,7 +292,7 @@
 
     <path name="compress-offload-playback speaker-and-headphones">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-        <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+        <ctl name="NXP VolumeL" value="40" />
     </path>
 
     <path name="compress-offload-playback headphones">
