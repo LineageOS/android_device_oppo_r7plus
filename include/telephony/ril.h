@@ -5144,6 +5144,13 @@ typedef struct {
 #define RIL_REQUEST_PULL_LCEDATA 134
 
 /**
+ * RIL_REQUEST_OPPO_GET_RADIO_INFO
+ *
+ * Unknown behaviour, proprietary
+ */
+#define RIL_REQUEST_OPPO_GET_RADIO_INFO 135
+
+/**
  * RIL_REQUEST_GET_ACTIVITY_INFO
  *
  * Get modem activity statisitics info.
@@ -5161,7 +5168,7 @@ typedef struct {
  * RADIO_NOT_AVAILABLE (radio resetting)
  * GENERIC_FAILURE
  */
-#define RIL_REQUEST_GET_ACTIVITY_INFO 135
+#define RIL_REQUEST_GET_ACTIVITY_INFO 136
 
 /**
  * RIL_REQUEST_SIM_GET_ATR
@@ -5181,7 +5188,7 @@ typedef struct {
  * RADIO_NOT_AVAILABLE (radio resetting)
  * GENERIC_FAILURE
  */
-#define RIL_REQUEST_SIM_GET_ATR 136
+#define RIL_REQUEST_SIM_GET_ATR 137
 
 /**
  * RIL_REQUEST_CAF_SIM_OPEN_CHANNEL_WITH_P2
@@ -5204,7 +5211,7 @@ typedef struct {
  *  MISSING_RESOURCE
  *  NO_SUCH_ELEMENT
  */
-#define RIL_REQUEST_CAF_SIM_OPEN_CHANNEL_WITH_P2 137
+#define RIL_REQUEST_CAF_SIM_OPEN_CHANNEL_WITH_P2 138
 
 /**
  * RIL_REQUEST_GET_ADN_RECORD
@@ -5223,7 +5230,7 @@ typedef struct {
  *  SUCCESS
  *  GENERIC_FAILURE
  */
-#define RIL_REQUEST_GET_ADN_RECORD 138
+#define RIL_REQUEST_GET_ADN_RECORD 139
 
 /**
  * RIL_REQUEST_UPDATE_ADN_RECORD
@@ -5237,7 +5244,7 @@ typedef struct {
  * Valid errors:
  *  Must never fail
  */
-#define RIL_REQUEST_UPDATE_ADN_RECORD 139
+#define RIL_REQUEST_UPDATE_ADN_RECORD 140
 
 /**
  * RIL_REQUEST_SET_CARRIER_RESTRICTIONS
@@ -5270,7 +5277,7 @@ typedef struct {
  *  RIL_E_RADIO_NOT_AVAILABLE
  *  RIL_E_REQUEST_NOT_SUPPORTED
  */
-#define RIL_REQUEST_SET_CARRIER_RESTRICTIONS 140
+#define RIL_REQUEST_SET_CARRIER_RESTRICTIONS 141
 
 /**
  * RIL_REQUEST_GET_CARRIER_RESTRICTIONS
@@ -5288,7 +5295,7 @@ typedef struct {
  *  RIL_E_RADIO_NOT_AVAILABLE
  *  RIL_E_REQUEST_NOT_SUPPORTED
  */
-#define RIL_REQUEST_GET_CARRIER_RESTRICTIONS 141
+#define RIL_REQUEST_GET_CARRIER_RESTRICTIONS 142
 
 /***********************************************************************/
 
