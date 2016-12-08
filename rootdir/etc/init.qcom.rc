@@ -49,3 +49,8 @@ service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
     group system input
+
+on post-fs
+    write /sys/block/zram0/comp_algorithm lz4
+    swapon_all /fstab.qcom
+    write /proc/sys/vm/page-cluster 0
