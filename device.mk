@@ -86,3 +86,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+
+# LiveDisplay native
+PRODUCT_PACKAGES += \
+    libjni_livedisplay
+
+# Display calibration
+PRODUCT_PACKAGES += \
+    FOSSConfig.xml \
+    qdcm_calib_data_samsung_s6e3fa3_1080p_cmd_mode_dsi_panel.xml
