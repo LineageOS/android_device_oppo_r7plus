@@ -536,7 +536,7 @@ out:
     ret = adjustReturnValueForCancel(ret);
     handleShutdown();
 
-    if (ret == 0) {
+    if (ret == 0 && enrolledId != 0) {
         EnrolledFingerprint fp(enrolledId, mGid);
         mSensor->mFpMetadata.replaceValueFor(enrolledId, FingerprintMetadata(mGid, mUserId));
         mSensor->mAuthenticatorId = ((uint64_t) rand()) << 32 | rand();
@@ -548,7 +548,7 @@ out:
         // so if we aren't in idle state at this point, we're prone to
         // race conditions.
         mSensor->mEnrollmentCb(&fp, 0, mSensor->mCbData);
-    } else {
+    } else if (ret != 0) {
         ALOGD("Enrollment failed: %d", ret);
         mSensor->mErrorCb(ret, mSensor->mCbData);
     }
