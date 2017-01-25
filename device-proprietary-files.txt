@@ -52,6 +52,8 @@ vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
 # Fingerprint sensor
+lib64/hw/fingerprint.msm8916.so:lib64/hw/fingerprint.vendor.msm8916.so
+lib64/lib_fpc_tac_shared.so
 etc/firmware/fpctzappfingerprint.b00
 etc/firmware/fpctzappfingerprint.b01
 etc/firmware/fpctzappfingerprint.b02
