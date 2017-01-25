@@ -55,6 +55,15 @@ etc/firmware/fingerprints.b02|6b5e47aaf78d7d3342080c1c4c493485d5c2d3c1
 etc/firmware/fingerprints.b03|4ce09735fa524c3616d6e0213eb5a098b9ce295d
 etc/firmware/fingerprints.mdt|ed79190078c5cf72cafcf97f7c5c445b72e36eda
 
+# Fingerprint sensor - Spectrum
+lib64/hw/fingerprint.msm8916.so:lib64/hw/fingerprint.vendor.spectrum.so
+lib64/lib_fpc_tac_shared.so
+etc/firmware/fpctzappfingerprint.b00
+etc/firmware/fpctzappfingerprint.b01
+etc/firmware/fpctzappfingerprint.b02
+etc/firmware/fpctzappfingerprint.b03
+etc/firmware/fpctzappfingerprint.mdt
+
 # Sensors
 bin/psensord
 lib64/hw/sensors.hal.tof.so

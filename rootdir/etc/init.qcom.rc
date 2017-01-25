@@ -50,3 +50,11 @@ service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
     group system input
+
+on property:ro.hardware.fingerprint=coloros
+    write /proc/deferred_initcalls 1
+    insmod /system/lib/modules/fpc1020_tee_legacy.ko
+
+on property:ro.hardware.fingerprint=spectrum
+    write /proc/deferred_initcalls 0
+    insmod /system/lib/modules/fpc1020_tee_qsee4.ko
