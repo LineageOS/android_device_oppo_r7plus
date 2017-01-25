@@ -60,6 +60,10 @@ etc/firmware/fpctzappfingerprint.b02
 etc/firmware/fpctzappfingerprint.b03
 etc/firmware/fpctzappfingerprint.mdt
 
+# RIL
+vendor/lib64/liblqe.so
+vendor/lib64/libril-qc-radioconfig.so
+
 # Sensors
 bin/psensord
 lib64/hw/sensors.hal.tof.so
