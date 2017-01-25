@@ -36,6 +36,9 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_CONFIG := lineageos_r7plus_defconfig
 
+# libc config (needed by fingerprint HAL)
+TARGET_NEEDS_GCC_LIBC := true
+
 # Partition info
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
