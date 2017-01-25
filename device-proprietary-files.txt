@@ -48,12 +48,14 @@ vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so
 vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
-# Fingerprint sensor - ColorOS
-etc/firmware/fingerprints.b00|8c151fa0fd5a8644edb3e5926d2ad2f4eef6bf6f
-etc/firmware/fingerprints.b01|d3091c7b45289c67c7e78bbb1f4e1b8885fb09c5
-etc/firmware/fingerprints.b02|6b5e47aaf78d7d3342080c1c4c493485d5c2d3c1
-etc/firmware/fingerprints.b03|4ce09735fa524c3616d6e0213eb5a098b9ce295d
-etc/firmware/fingerprints.mdt|ed79190078c5cf72cafcf97f7c5c445b72e36eda
+# Fingerprint sensor
+lib64/hw/fingerprint.msm8916.so:lib64/hw/fingerprint.vendor.msm8916.so
+lib64/lib_fpc_tac_shared.so
+etc/firmware/fpctzappfingerprint.b00
+etc/firmware/fpctzappfingerprint.b01
+etc/firmware/fpctzappfingerprint.b02
+etc/firmware/fpctzappfingerprint.b03
+etc/firmware/fpctzappfingerprint.mdt
 
 # Sensors
 bin/psensord
