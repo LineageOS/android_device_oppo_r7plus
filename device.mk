@@ -63,7 +63,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
 PRODUCT_PACKAGES += \
-    fingerprint.msm8916 \
+    fingerprint.coloros \
+    fingerprint.spectrum \
     fingerprintd
 
 # Input configuration
@@ -74,6 +75,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc
+
+# Releasetools
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/releasetools/fingerprint.sh:install/bin/fingerprint.sh
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \

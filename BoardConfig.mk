@@ -30,9 +30,15 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
+# Init
+TARGET_LIBINIT_MSM8939_DEFINES_FILE := $(DEVICE_PATH)/init/init_r7plus.cpp
+
 # Kernel
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000
 TARGET_KERNEL_CONFIG := lineageos_r7plus_defconfig
+
+# libc config (needed by fingerprint HAL)
+TARGET_NEEDS_GCC_LIBC := true
 
 # Partition info
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -46,6 +52,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 25769803776
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
