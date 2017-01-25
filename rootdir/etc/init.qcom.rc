@@ -50,3 +50,9 @@ service fingerprintd /system/bin/fingerprintd
     class late_start
     user system
     group system input
+
+on property:ro.hardware.fingerprint=coloros
+    insmod /system/lib/modules/fpc1020_tee_legacy.ko
+
+on property:ro.hardware.fingerprint=spectrum
+    insmod /system/lib/modules/fpc1020_tee_qsee4.ko
