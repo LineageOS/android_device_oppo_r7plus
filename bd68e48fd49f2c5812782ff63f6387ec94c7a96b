@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5a2585a7_9c5111db",
+        "filename": "device-proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-02-11T17:43:22Z",
+      "side": 1,
+      "message": "These should go to common files list and r7sf/f1f need to update their blobs as well",
+      "revId": "bd68e48fd49f2c5812782ff63f6387ec94c7a96b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_a335bb47",
         "filename": "rootdir/etc/init.qcom.rc",
         "patchSetId": 1
