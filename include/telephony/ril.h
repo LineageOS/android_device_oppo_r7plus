@@ -1052,6 +1052,7 @@ typedef struct
   int           ims_subscription_app_index;      /* value < RIL_CARD_MAX_APPS, -1 if none */
   int           num_applications;                /* value <= RIL_CARD_MAX_APPS */
   RIL_AppStatus applications[RIL_CARD_MAX_APPS];
+  int           unknown[2];
 } RIL_CardStatus_v6;
 
 /** The result of a SIM refresh, returned in data[0] of RIL_UNSOL_SIM_REFRESH
