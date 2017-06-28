@@ -7,9 +7,6 @@ etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch:etc/firmware/left.tfa9890_n1c2.pat
 etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.eq:etc/firmware/left.tfa9890_voice_table.eq|e34df2c3a4af6002def1e4523f8c0f3352dc3c37
 etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.preset:etc/firmware/left.tfa9890_voice_table.preset
 
-# Camera
-vendor/lib/libimage_stability.so
-
 # Camera autofocus
 vendor/lib/libactuator_dw9800w_camcorder.so
 vendor/lib/libactuator_dw9800w_camera.so
@@ -51,12 +48,12 @@ vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so
 vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
-# Fingerprint sensor
-etc/firmware/fingerprints.b00
-etc/firmware/fingerprints.b01
-etc/firmware/fingerprints.b02
-etc/firmware/fingerprints.b03
-etc/firmware/fingerprints.mdt
+# Fingerprint sensor - ColorOS
+etc/firmware/fingerprints.b00|8c151fa0fd5a8644edb3e5926d2ad2f4eef6bf6f
+etc/firmware/fingerprints.b01|d3091c7b45289c67c7e78bbb1f4e1b8885fb09c5
+etc/firmware/fingerprints.b02|6b5e47aaf78d7d3342080c1c4c493485d5c2d3c1
+etc/firmware/fingerprints.b03|4ce09735fa524c3616d6e0213eb5a098b9ce295d
+etc/firmware/fingerprints.mdt|ed79190078c5cf72cafcf97f7c5c445b72e36eda
 
 # Sensors
 bin/psensord
