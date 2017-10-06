@@ -79,7 +79,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.telephony.default_network=9,9 \
-    ro.telephony.ril.config=simactivation,sim2gsmonly \
     persist.radio.multisim.config=dsds
 
 # Wifi
