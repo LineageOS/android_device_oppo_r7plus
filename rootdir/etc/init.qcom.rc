@@ -43,8 +43,3 @@ service psensord /system/vendor/bin/psensord
     user system
     group system
     oneshot
-
-service fingerprintd /system/bin/fingerprintd
-    class late_start
-    user system
-    group system input
