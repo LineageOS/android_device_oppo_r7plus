@@ -1,11 +1,11 @@
 # Audio - from stock, eq converted
-etc/tfa9890/settings/TFA9890_N1B12_N1C3_v2.config:etc/firmware/left.tfa9890.config
-etc/tfa9890/settings/15018/TFA9890_1111.speaker:etc/firmware/left.tfa9890.speaker
-etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.eq:etc/firmware/left.tfa9890_music_table.eq|5dd2161117b2efa7484c591f34bc2db61fe1f241
-etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.preset:etc/firmware/left.tfa9890_music_table.preset
-etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch:etc/firmware/left.tfa9890_n1c2.patch
-etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.eq:etc/firmware/left.tfa9890_voice_table.eq|e34df2c3a4af6002def1e4523f8c0f3352dc3c37
-etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.preset:etc/firmware/left.tfa9890_voice_table.preset
+etc/tfa9890/settings/TFA9890_N1B12_N1C3_v2.config:vendor/firmware/left.tfa9890.config
+etc/tfa9890/settings/15018/TFA9890_1111.speaker:vendor/firmware/left.tfa9890.speaker
+etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.eq:vendor/firmware/left.tfa9890_music_table.eq|5dd2161117b2efa7484c591f34bc2db61fe1f241
+etc/tfa9890/settings/15018/NHQ_0_0_TFA9890_1111.preset:vendor/firmware/left.tfa9890_music_table.preset
+etc/tfa9890/settings/TFA9890_N1C3_1_7_1.patch:vendor/firmware/left.tfa9890_n1c2.patch
+etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.eq:vendor/firmware/left.tfa9890_voice_table.eq|e34df2c3a4af6002def1e4523f8c0f3352dc3c37
+etc/tfa9890/settings/15018/Speech_0_0_TFA9890_1111.preset:vendor/firmware/left.tfa9890_voice_table.preset
 
 # Camera autofocus
 vendor/lib/libactuator_dw9800w_camcorder.so
@@ -49,18 +49,18 @@ vendor/lib/libmmcamera_imx278.so
 vendor/lib/libmmcamera_ov8858.so
 
 # Fingerprint sensor - ColorOS
-etc/firmware/fingerprints.b00|8c151fa0fd5a8644edb3e5926d2ad2f4eef6bf6f
-etc/firmware/fingerprints.b01|d3091c7b45289c67c7e78bbb1f4e1b8885fb09c5
-etc/firmware/fingerprints.b02|6b5e47aaf78d7d3342080c1c4c493485d5c2d3c1
-etc/firmware/fingerprints.b03|4ce09735fa524c3616d6e0213eb5a098b9ce295d
-etc/firmware/fingerprints.mdt|ed79190078c5cf72cafcf97f7c5c445b72e36eda
+etc/firmware/fingerprints.b00:vendor/firmware/fingerprints.b00|8c151fa0fd5a8644edb3e5926d2ad2f4eef6bf6f
+etc/firmware/fingerprints.b01:vendor/firmware/fingerprints.b01|d3091c7b45289c67c7e78bbb1f4e1b8885fb09c5
+etc/firmware/fingerprints.b02:vendor/firmware/fingerprints.b02|6b5e47aaf78d7d3342080c1c4c493485d5c2d3c1
+etc/firmware/fingerprints.b03:vendor/firmware/fingerprints.b03|4ce09735fa524c3616d6e0213eb5a098b9ce295d
+etc/firmware/fingerprints.mdt:vendor/firmware/fingerprints.mdt|ed79190078c5cf72cafcf97f7c5c445b72e36eda
 
 # Sensors
-bin/psensord
-lib64/hw/sensors.hal.tof.so
+bin/psensord:vendor/bin/psensord
+lib64/hw/sensors.hal.tof.so:vendor/lib64/hw/sensors.hal.tof.so
 vendor/lib64/libcalmodule_memsic.so
 
 # Touchscreen
-etc/firmware/tp/15018/15018_FW_S3508_Samsung.img
-etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img
-etc/firmware/tp/15018/15018_Limit_Samsung.img
+etc/firmware/tp/15018/15018_FW_S3508_Samsung.img:vendor/firmware/tp/15018/15018_FW_S3508_Samsung.img
+etc/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img:vendor/firmware/tp/15018/15018_FW_S3508_Samsung_Old.img
+etc/firmware/tp/15018/15018_Limit_Samsung.img:vendor/firmware/tp/15018/15018_Limit_Samsung.img
