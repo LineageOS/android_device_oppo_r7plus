@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "77104c7f_25430506",
+        "filename": "sepolicy/fingerprint.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-25T17:11:12Z",
+      "side": 1,
+      "message": "You should name the file hal_fingerprint_default.te",
+      "revId": "de3646a0b3edcf07a09e47a06b293b074660d044",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
