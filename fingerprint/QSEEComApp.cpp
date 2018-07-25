@@ -59,7 +59,7 @@ int QSEEComApp::start()
     }
 
     ALOGV("Starting app %s", mAppName);
-    if (mStartApp(&mHandle, "/system/etc/firmware", mAppName,
+    if (mStartApp(&mHandle, "/vendor/firmware", mAppName,
             QSEECOM_ALIGN(mBufferSize) * 2) < 0) {
         return -errno;
     }
