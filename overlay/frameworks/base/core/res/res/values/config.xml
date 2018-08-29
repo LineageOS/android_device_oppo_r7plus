@@ -37,4 +37,21 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/arm64/boot-core-libart.vdex"</item>
     </string-array>
+
+    <!-- an array of "[hardware type],[hardware-uuid],[state],[[hardware-type specific]]"
+         with, [[hardware-type specific]] in:
+            - "[[ril-model],[rat],[max-active-voice],[max-active-data],[max-active-standby]]"
+              for 'modem' hardware
+            - "[[associated-modem-uuid]]"
+              for 'sim' hardware.
+         refer to HardwareConfig in com.android.internal.telephony for specific details/values
+         those elements can carry.
+    -->
+    <string-array translatable="false" name="config_telephonyHardware">
+        <!-- modem -->
+        <item>0,modem,0,1,118286,1,1,2</item>
+        <!-- sim -->
+        <item>1,sim1,0,modem</item>
+        <item>1,sim2,0,modem</item>
+    </string-array>
 </resources>
