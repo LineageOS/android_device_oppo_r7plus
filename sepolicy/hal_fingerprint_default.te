@@ -6,3 +6,5 @@ allow hal_fingerprint_default fingerprint_dir:file create_file_perms;
 allow hal_fingerprint_default fingerprint_device:chr_file { open read write ioctl };
 allow hal_fingerprint_default fingerprint_metadata:file create_file_perms;
 allow hal_fingerprint_default fingerprint_metadata:file rw_file_perms;
+allow hal_fingerprint_default fingerprintd_data_file:file create_file_perms;
+allow hal_fingerprint_default fingerprintd_data_file:dir rw_dir_perms;
