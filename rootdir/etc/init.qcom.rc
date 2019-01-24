@@ -27,6 +27,10 @@
 
 import /vendor/etc/init/hw/init.qcom-common.rc
 
+on post-fs-data
+    # Fingerprint
+    mkdir /data/misc/fp 0700 system system
+
 on boot
     # Adaptive LMK
     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
