@@ -14,3 +14,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_r7plus.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_r7plus-user \
+    lineage_r7plus-userdebug \
+    lineage_r7plus-eng
