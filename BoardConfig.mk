@@ -51,8 +51,5 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
-# Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 22
-
 # Inherit from proprietary files
 include vendor/oppo/r7plus/BoardConfigVendor.mk
